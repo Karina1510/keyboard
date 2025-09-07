@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    font-family: 'poppins',sans-serif;
+    
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background: url(../img/Summer\ Beach\ GIF.gif) ;
+    background-size: cover;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56%;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-width: 100%;
+}
+
+.container{
+    width: 60%;
+}
+
+.container .wrapper{
+    min-width: 750px;
+    max-width: 1000px;
+    border-radius: 10px;
+    padding: 25px;
+    background-color:#dde1e7;
+    box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgba(94,104,121,0.288);
+}
+
+.wrapper .keyboard{
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper .keyboard input{
+    height: 40px;
+    min-width:50px ;
+    padding: 10px;
+    outline: none;
+    border: none ;
+    font-size: 20px;
+    color: grey;
+    text-transform: uppercase;
+    margin: 10px;
+    border-radius: 5px;
+
+}
+
+.wrapper .keyboard input:focus{
+    font-size: 19px;
+    box-shadow: inset -3px 7px #ffffff73, inset 2px 5px rgba(94,104,121,0.288);
+    color: grey;
+
+
+}
+
+.wrapper .keyboard input[value="space"]{
+    width: 60% ;
+
+}
